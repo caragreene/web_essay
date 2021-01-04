@@ -126,7 +126,7 @@ float: none;
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, {
   margin: auto;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.15;
@@ -134,8 +134,15 @@ h1, h2, h3 {
 }
 
 
-h2 { font-size: 2.441em; border-bottom: 1px solid #BF0404; display: inline;
-     text-align: center;}
+h2 { font-size: 2.441em; border-bottom: 1px solid #0C0409; display: inline;
+     text-align: left;
+      }
+.history { color: #F2E205 }
+
+.start { color: #0A2D73 }
+.piet { color:#BF0404 }
+.others { color: #0A2D73 }
+.conclusion { color:#F2E205 }
 
 h3 {font-size: 1.953em;
      text-align:center;}
@@ -143,8 +150,9 @@ h3 {font-size: 1.953em;
 h4 {font-size: 1.563em;
    text-align: center;}
 
-h5 {font-size: 1.25em;
-    text-align: center;}
+h5 {font-size: 0.9em;
+    text-align: center;
+    color: #8D8D8D;}
 
 .text_small {font-size: 0.8em; font-weight: lighter;
              font-family: 'Montserrat', sans-serif;}
@@ -153,7 +161,7 @@ p {
     line-height: 1.75;
     margin-bottom: 1.25em;
     font-style: 'Montserrat', sans-serif;
-
+    text-align: center;
 
   }
 
@@ -174,7 +182,7 @@ blockquote {
 }
 blockquote:before {
   color: #ccc;
-  font-size: 8em;
+  font-size: 10em;
   line-height: 1em;
   margin-right: 3em;
   vertical-align: -0.4em;
@@ -184,10 +192,6 @@ blockquote p {
   display: inline;
 }
 
-
-.bibliography {
-  margin: auto;
-}
 
 
 .container {
@@ -211,15 +215,22 @@ main {
 
 main p {
     width: 50vw;
+    text-align: left;
      }
 
-
+.bibliography {
+  text-align: center;
+  color: #BF0404;
+}
+.info { text-align: left;}
 
 footer {
-background-color: #0C0409;
 padding: 0;
 width: 100%;
+margin: left;
+
 }
+
 
 footer ul li {
     list-style: none;}
